@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+.App-controls{
+  padding: 20px;
+}
+.App-video{
+  width : 100%;
+  float:left;
+  background: #f1f1f1;
+}
+.App-pagination{
+  width: 100%;
+  float: left;
+  list-style: none;
+}
+.App-pagination li{
+  width: 20px;
+  height: 20px;
+  background: #008CFF;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+  margin: 0px 5px;
+}
+.App-video .App-video-author{
+  float:left;
+  width: 120px;
+}
+
+.App-video .App-video-content{
+  float:left;
+  padding: 10px;
+  width: calc(100% - 140px);
+}
+
+.App-video .App-video-content span{
+  margin: 0px 10px;
+}
+
+.App-video .App-video-content h1, .App-video .App-video-content p{
+  text-align: left;
+}
+.App-video .App-video-content h1{
+  margin: 4px 0px
+}
+.App-video .App-video-author img {
+  margin: 10px;
+}
+
+.App-footer {
+  width: 50%;
+  margin: auto;
+}
+
+.App-videos{
+  width : 100%;
+  margin: auto;
+}
